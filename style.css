@@ -1,1 +1,92 @@
 body { background-color: black; color: #00f; font-family: sans-serif; }
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #12004f;
+  padding: 1rem;
+  text-align: center;
+  text-shadow: 0 0 10px #7f00ff;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #8a2be2;
+  text-shadow:
+    0 0 5px #8a2be2,
+    0 0 20px #7f00ff;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#media-player {
+  flex: 3;
+  background: #1a1a2e;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 20px #6a0dad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+  margin-top: 0.5rem;
+}
+
+.neon-btn {
+  background: #7f00ff;
+  border: none;
+  border-radius: 8px;
+  color: #eee;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow:
+    0 0 5px #7f00ff,
+    0 0 20px #7f00ff,
+    0 0 40px #9a30ff;
+  transition: box-shadow 0.3s ease;
+}
+
+.neon-btn:hover {
+  box-shadow:
+    0 0 10px #9a30ff,
+    0 0 30px #bb50ff,
+    0 0 50px #cc66ff;
+}
+
+#file-browser {
+  flex: 1;
+  background: #12004f;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 20px #7f00ff;
+  overflow-y: auto;
+}
+
+#file-browser h2 {
+  margin-top: 0;
+  color: #b285ff;
+  text-shadow: 0 0 10px #b285ff;
+}
+
+.file-btn {
+  width: 100%;
+  margin: 0.25rem 0;
+  text-align: left;
+}
