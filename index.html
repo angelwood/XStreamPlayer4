@@ -1,1 +1,36 @@
-<!DOCTYPE html><html><head><title>XStream Player</title></head><body><h1>Welcome to XStream Player v3</h1></body></html>
+<!DOCTYPE html><html><head><title>XStream Player</title></head><body><h1>Welcome to XStream Player v3</h1></body></html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>XStream Player v3</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>XStream Player</h1>
+  </header>
+
+  <main>
+    <section id="media-player">
+      <video id="video" controls width="640" height="360" style="background: black;">
+        <source src="" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="controls">
+        <button id="play-pause" class="neon-btn">▶️ Play</button>
+      </div>
+    </section>
+
+    <aside id="file-browser">
+      <h2>Media Files</h2>
+      <ul id="file-list">
+        <li><button class="file-btn neon-btn">Sample Video 1</button></li>
+        <li><button class="file-btn neon-btn">Sample Video 2</button></li>
+      </ul>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
