@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XStream Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1 class="glow-text">🎧 XStream Player</h1>
+    <div class="button-group">
+      <button id="startStream">Start Streaming</button>
+      <button id="downloadApp">Download App</button>
+    </div>
+    <div class="media-controls">
+      <button>⏮️</button>
+      <button>▶️</button>
+      <button>⏭️</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
